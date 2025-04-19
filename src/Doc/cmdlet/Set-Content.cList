@@ -1,0 +1,35 @@
+
+
+Set-Content 
+    [-Value] <System.Object[]> 
+    [-Credential <System.Management.Automation.PSCredential>] 
+    [-Encoding {ASCII | BigEndianUnicode | BigEndianUTF32 | Byte | Default | OEM | String | Unicode | Unknown | UTF7 | UTF8 | UTF32}] 
+    [-Exclude <System.String[]>] 
+    [-Filter <System.String>] 
+    [-Force] 
+    [-Include <System.String[]>] -LiteralPath <System.String[]> 
+    [-NoNewline] 
+    [-PassThru] 
+    [-Stream <System.String>] 
+    [-UseTransaction] 
+    [-Confirm] 
+    [-WhatIf] 
+    [<CommonParameters>]
+
+
+Set-Content 
+    [-Path] <System.String[]> 
+    [-Value] <System.Object[]> 
+    [-Credential <System.Management.Automation.PSCredential>] 
+    [-Encoding {ASCII | BigEndianUnicode | BigEndianUTF32 | Byte | Default | OEM | String | Unicode | Unknown | UTF7 | UTF8 | UTF32}] 
+    [-Exclude <System.String[]>] 
+    [-Filter <System.String>] 
+    [-Force] 
+    [-Include <System.String[]>] 
+    [-NoNewline] 
+    [-PassThru] 
+    [-Stream <System.String>] 
+    [-UseTransaction] 
+    [-Confirm] 
+    [-WhatIf] 
+    [<CommonParameters>]

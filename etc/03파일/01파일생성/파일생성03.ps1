@@ -1,0 +1,1 @@
+Set-Content -Path "파일이름.txt" -Value ""

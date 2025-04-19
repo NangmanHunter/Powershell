@@ -1,0 +1,62 @@
+
+
+## Common character encodings
+- ISO 646
+  - ASCII
+- EBCDIC
+- ISO 8859:
+  - ISO 8859-1 Western Europe
+  - ISO 8859-2 Western and Central Europe
+  - ISO 8859-3 Western Europe and South European (Turkish, Maltese plus Esperanto)
+  - ISO 8859-4 Western Europe and Baltic countries (Lithuania, Estonia, Latvia and Lapp)
+  - ISO 8859-5 Cyrillic alphabet
+  - ISO 8859-6 Arabic
+  - ISO 8859-7 Greek
+  - ISO 8859-8 Hebrew
+  - ISO 8859-9 Western Europe with amended Turkish character set
+  - ISO 8859-10 Western Europe with rationalised character set for Nordic languages, including complete Icelandic set
+  - ISO 8859-11 Thai
+  - ISO 8859-13 Baltic languages plus Polish
+  - ISO 8859-14 Celtic languages (Irish Gaelic, Scottish, Welsh)
+  - ISO 8859-15 Added the Euro sign and other rationalisations to ISO 8859-1
+  - ISO 8859-16 Central, Eastern and Southern European languages (Albanian, Bosnian, Croatian, Hungarian, Polish, Romanian, Serbian and Slovenian, but also French, German, Italian and Irish Gaelic)
+- CP437, CP720, CP737, CP850, CP852, CP855, CP857, CP858, CP860, CP861, CP862, CP863, CP865, CP866, CP869, CP872
+- MS-Windows character sets:
+  - Windows-1250 for Central European languages that use Latin script, (Polish, Czech, Slovak, Hungarian, Slovene, Serbian, Croatian, Bosnian, Romanian and Albanian)
+  - Windows-1251 for Cyrillic alphabets
+  - Windows-1252 for Western languages
+  - Windows-1253 for Greek
+  - Windows-1254 for Turkish
+  - Windows-1255 for Hebrew
+  - Windows-1256 for Arabic
+  - Windows-1257 for Baltic languages
+  - Windows-1258 for Vietnamese
+- Mac OS Roman
+- KOI8-R, KOI8-U, KOI7
+- MIK
+- ISCII
+- TSCII
+- VISCII
+- JIS X 0208 is a widely deployed standard for Japanese character encoding that has several encoding forms.
+  - Shift JIS (Microsoft Code page 932 is a dialect of Shift_JIS)
+  - EUC-JP
+  - ISO-2022-JP
+- JIS X 0213 is an extended version of JIS X 0208.
+  - Shift_JIS-2004
+  - EUC-JIS-2004
+  - ISO-2022-JP-2004
+- Chinese Guobiao
+  - GB 2312
+  - GBK (Microsoft Code page 936)
+  - GB 18030
+- Taiwan Big5 (a more famous variant is Microsoft Code page 950)
+- Hong Kong HKSCS
+- Korean
+  - KS X 1001 is a Korean double-byte character encoding standard
+  - EUC-KR
+  - ISO-2022-KR
+- Unicode (and subsets thereof, such as the 16-bit 'Basic Multilingual Plane')
+  - UTF-8
+  - UTF-16
+  - UTF-32
+- ANSEL or ISO/IEC 6937

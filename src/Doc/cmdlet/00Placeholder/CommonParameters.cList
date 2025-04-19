@@ -1,0 +1,13 @@
+<CommonParameters>
+ㄴ-Debug (db)
+ㄴ-ErrorAction (ea)
+ㄴ-ErrorVariable (ev)
+ㄴ-InformationAction (infa)
+ㄴ-InformationVariable (iv)
+ㄴ-OutVariable (ov)
+ㄴ-OutBuffer (ob)
+ㄴ-PipelineVariable (pv)
+ㄴ-ProgressAction (proga)
+ㄴ-Verbose (vb)
+ㄴ-WarningAction (wa)
+ㄴ-WarningVariable (wv)

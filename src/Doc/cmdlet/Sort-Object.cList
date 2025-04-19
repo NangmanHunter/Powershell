@@ -1,0 +1,11 @@
+Sort-Object 
+
+#
+Sort-Object 
+ㄴ-Property <System.Object[]>
+ㄴ-CaseSensitive
+ㄴ-Culture <System.String>
+ㄴ-Descending
+ㄴ-InputObject <System.Management.Automation.PSObject>
+ㄴ-Unique
+ㄴ<CommonParameters>

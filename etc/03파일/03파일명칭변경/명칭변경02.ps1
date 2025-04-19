@@ -1,0 +1,7 @@
+Get-ChildItem -File | Rename-Item -NewName { $_.Name -replace 'ㅁㅁ', '' }
+
+
+<#
+
+
+#>
