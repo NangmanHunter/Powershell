@@ -8,10 +8,7 @@ ForEach-Object {
 }
 
 <#
-용어
-ㄴ일원화.
-ㄴDirectory>>Folder
-ㄴ걍통일화.
-ㄴ최적화위해
-ㄴㄱㄱ.
+Directory
+- Folder ▶️ Directory
+- Directory>>Folder
 #>
