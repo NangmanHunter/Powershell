@@ -6,7 +6,6 @@ ForEach-Object {
     Sort-Object | 
     Set-Content $FileName -Encoding UTF8
 }
-
 <#
 용어
 ㄴ일원화.
