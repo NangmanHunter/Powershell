@@ -8,8 +8,6 @@ ForEach-Object {
     } 
     $Content | Set-Content $FileName -Encoding UTF8
 }
-
-
 <#
 00 👉 - 00
 #>

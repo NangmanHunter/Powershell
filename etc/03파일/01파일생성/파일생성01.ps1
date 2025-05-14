@@ -1,1 +1,0 @@
-New-Item -Path "파일이름.txt" -ItemType File

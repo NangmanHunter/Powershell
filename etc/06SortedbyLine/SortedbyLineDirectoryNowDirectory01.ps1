@@ -25,3 +25,14 @@ ForEach-Object {
     Set-Content $FileName -Encoding UTF8
 }
 
+
+
+<#
+$PWD.Path
+
+Get-ChildItem "."          
+Get-ChildItem $PWD.Path
+
+Resolve-Path "." 
+Get-Location
+#>
