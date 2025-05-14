@@ -17,6 +17,8 @@ Alias
   mkdir 📁01Folder, 
   📁02Folder
   ```
+  
+Ex.
 - ```ps1
   mkdir 01SQL기본, 
   02SQL활용,
@@ -28,3 +30,5 @@ Alias
   ```
   - < ▶️ 〈   
   - < ▶️ ＜
+
+

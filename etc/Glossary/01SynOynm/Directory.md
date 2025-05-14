@@ -1,0 +1,5 @@
+- Directory
+- directory
+- Folder
+- 폴더
+- 디렉토리

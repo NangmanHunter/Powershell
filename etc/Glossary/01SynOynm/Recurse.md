@@ -1,0 +1,5 @@
+- Recurse
+- Recursive
+- 재귀
+- 재귀하다
+- 재귀적으로
