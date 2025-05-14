@@ -41,33 +41,6 @@ Update
       }
   }
   ```
-- ```ps1
-  Get-ChildItem -Directory -Recurse | 
-  ForEach-Object {
-      $newName = $_.Name -replace "02반어", "02AntOnym"
-      if ($_.Name -ne $newName) {
-          Rename-Item -Path $_.FullName -NewName $newName
-      }
-  }
-  ```
-- ```ps1
-  Get-ChildItem -Directory -Recurse | 
-  ForEach-Object {
-      $newName = $_.Name -replace "03위계어", "02HypOnym"
-      if ($_.Name -ne $newName) {
-          Rename-Item -Path $_.FullName -NewName $newName
-      }
-  }
-  ```
-- ```ps1
-  Get-ChildItem -Directory -Recurse | 
-  ForEach-Object {
-      $newName = $_.Name -replace "03위계", "02HypOnym"
-      if ($_.Name -ne $newName) {
-          Rename-Item -Path $_.FullName -NewName $newName
-      }
-  }
-  ```
 
 DeleteUpdate
 - ```ps1
