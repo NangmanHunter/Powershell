@@ -4,10 +4,10 @@
 - ```ps1
   tree
   ```
-- Get-Command tree
-  - CommandType
-  - Application
-- Windows CMD 명령
+  - Get-Command tree
+    - CommandType
+    - Application
+  - Windows CMD 명령
 
 
 
@@ -39,9 +39,9 @@ Option
     (' ' * ($_.FullName.Split('\').Count - (Get-Location).Path.Split('\').Count)) + $_.Name
   }
   ```
-- Get-Command Get-ChildItem
-  - CommandType 
-  - Cmdlet
+  - Get-Command Get-ChildItem
+    - CommandType 
+    - Cmdlet
 
 
 Function
