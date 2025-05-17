@@ -1,13 +1,12 @@
 # Tree
 
 ## ApplicationTree
-Application
 - ```ps1
   tree
   ```
 - Get-Command tree
   - CommandType
-- 외부실행파일
+  - Application
 - Windows CMD 명령
 
 
@@ -34,7 +33,6 @@ Option
   ```
 
 ## CmdletTree
-Cmdlet
 - ```ps1
   Get-ChildItem -Recurse -Directory | 
   ForEach-Object {
@@ -43,6 +41,7 @@ Cmdlet
   ```
 - Get-Command Get-ChildItem
   - CommandType 
+  - Cmdlet
 
 
 Function

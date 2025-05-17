@@ -1,5 +1,10 @@
 - Cmdlet
+- Cmdlet(CommandType)
 - cmdlet
+- CmdletCommandType
+- CommandTypeCmdlet
+- CommandType Cmdlet
+- CommandType▶️Cmdlet
 - .NET
 - C#.NET
 - C# .NET
