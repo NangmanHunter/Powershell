@@ -1,15 +1,17 @@
 # Tree
 
-## CommadTree
+## ApplicationTree
+Application
+- Get-Command tree
+  - CommandType
+- 외부실행파일
+- Windows CMD 명령
 - ```ps1
   tree
   ```
-  - Get-Command tree
-  - CommandType
-    - Application
-    - 외부실행파일
-    - Windows CMD 명령
 
+
+Option
 - ```ps1
   tree /A
   ```
@@ -30,13 +32,19 @@
   tree /F /A  
   ```
 
-## FunctionTree
+## CmdletTree
+Cmdlet
+- Get-Command Get-ChildItem
+  - CommandType 
 - ```ps1
   Get-ChildItem -Recurse -Directory | 
   ForEach-Object {
     (' ' * ($_.FullName.Split('\').Count - (Get-Location).Path.Split('\').Count)) + $_.Name
   }
   ```
+
+
+Function
 - ```ps1
   function Show-Tree {
       param (

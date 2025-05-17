@@ -1,0 +1,7 @@
+- PowerShell
+- powerShell
+- PowerShell 스크립트 코드
+- 상대적느림
+- 느림
+- Function
+- function
