@@ -2,13 +2,14 @@
 
 ## ApplicationTree
 Application
+- ```ps1
+  tree
+  ```
 - Get-Command tree
   - CommandType
 - 외부실행파일
 - Windows CMD 명령
-- ```ps1
-  tree
-  ```
+
 
 
 Option
@@ -34,14 +35,14 @@ Option
 
 ## CmdletTree
 Cmdlet
-- Get-Command Get-ChildItem
-  - CommandType 
 - ```ps1
   Get-ChildItem -Recurse -Directory | 
   ForEach-Object {
     (' ' * ($_.FullName.Split('\').Count - (Get-Location).Path.Split('\').Count)) + $_.Name
   }
   ```
+- Get-Command Get-ChildItem
+  - CommandType 
 
 
 Function
