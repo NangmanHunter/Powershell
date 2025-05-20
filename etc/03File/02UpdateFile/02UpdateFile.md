@@ -19,21 +19,25 @@ Alias
   ```
 
 
-ExtensionUpdate
+
+00.cList▶️00.md
 - ```ps1  
-  Get-ChildItem -File | Rename-Item -NewName { $_.Name -replace '.cList', '.md' }   # 00.cList ▶️00.md
+  Get-ChildItem -File | Rename-Item -NewName { $_.Name -replace '.cList', '.md' }
   ```
+00.cLayer▶️00.md
 - ```ps1  
-  Get-ChildItem -File | Rename-Item -NewName { $_.Name -replace '.cLayer', '.md' }  # 00.cLayer▶️00.md
+  Get-ChildItem -File | Rename-Item -NewName { $_.Name -replace '.cLayer', '.md' }
   ```
+
+00.xxx▶️00.md
 - ```ps1
-  Get-ChildItem -File | Rename-Item -NewName { $_.BaseName + '.md' }                # 00.xxx   ▶️00.md
+  Get-ChildItem -File | Rename-Item -NewName { $_.BaseName + '.md' }
   ```
 
 
-AddUpdate
+00▶️00.md
 - ```ps1
-  Get-ChildItem -File | Rename-Item -NewName { $_.Name + '.md' }                    # 00       ▶️00.md
+  Get-ChildItem -File | Rename-Item -NewName { $_.Name + '.md' }
   ```
 
 
@@ -87,14 +91,20 @@ AddUpdate
 - ```ps1
   Get-ChildItem -File | Rename-Item -NewName { $_.Name -replace 'ㅁㅁ', '' }
   ```
+
+00.md▶️00  
 - ```ps1
-  Get-ChildItem -File | Rename-Item -NewName { $_.Name -replace '.md', '' }         # 00.md    ▶️00
+  Get-ChildItem -File | Rename-Item -NewName { $_.Name -replace '.md', '' }
   ```
+  
+00.cList▶️00  
 - ```ps1
-  Get-ChildItem -File | Rename-Item -NewName { $_.Name -replace '.cList', '' }      # 00.cList ▶️00
+  Get-ChildItem -File | Rename-Item -NewName { $_.Name -replace '.cList', '' }
   ```
+
+00.cLayer▶️00
 - ```ps1
-  Get-ChildItem -File | Rename-Item -NewName { $_.Name -replace '.cLayer', '' }     # 00.cLayer▶️00
+  Get-ChildItem -File | Rename-Item -NewName { $_.Name -replace '.cLayer', '' }
   ```
 
 
