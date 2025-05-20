@@ -1,6 +1,12 @@
 - Application
 - Application(CommandType)
 - ApplicationCommandType
+- ApplicationCT
+- ACT
+- Application CommandType
+- ApplicationType
+- Application타입
+- Application Type
 - CommandTypeApplication
 - CommandType Application
 - CommandType▶️Application

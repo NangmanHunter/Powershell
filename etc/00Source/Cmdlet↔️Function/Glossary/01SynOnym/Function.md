@@ -4,4 +4,11 @@
 - 상대적느림
 - 느림
 - Function
+- FunctionCommandType
+- FunctionCT
+- FCT
+- Function CommandType
+- FunctionType
+- Function Type
+- Function타입
 - function

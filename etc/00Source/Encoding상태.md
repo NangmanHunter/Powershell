@@ -1,3 +1,4 @@
+# Encoding상태
 - [Console]::OutputEncoding
 - [Console]::InputEncoding
 

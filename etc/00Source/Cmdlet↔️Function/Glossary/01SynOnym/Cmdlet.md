@@ -1,6 +1,13 @@
 - Cmdlet
+- CmdletCommandType
+- Cmdlet CommandType
+- Cmdlet Type
+- CmdletType
+- Cmdlet타입
 - Cmdlet(CommandType)
 - cmdlet
+- CmdletCT
+- CCT
 - CmdletCommandType
 - CommandTypeCmdlet
 - CommandType Cmdlet
