@@ -1,5 +1,5 @@
 # AnchorFileTree
-- [MarkDownFileTree](#markdownfiletree)
+- [FileTree](#filetree)
 - [AnchorFileTree](#anchorfiletree)
 - [DetailsAnchorFileTree](#detailsanchorfiletree)
 
@@ -15,7 +15,7 @@ Branch
 - ✅\-
   - ✅\-   + \[]()
 
-## MarkDownFileTree
+## FileTree
 - ```ps1
   function Show-Tree {
       param (
