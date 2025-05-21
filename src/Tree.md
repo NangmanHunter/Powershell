@@ -183,6 +183,8 @@ Function
   # 테스트
   Show-Tree -Path "." -Depth 3
   ```
+
+
 - ```ps1
   function Show-Tree {
       param (
@@ -228,7 +230,7 @@ Function
   #>
   ```
 
-현행최적
+
 - ```ps1
   function Show-Tree {
       param (
@@ -401,7 +403,6 @@ Function
   $output += '```'
   $output += Show-Tree -Path "."
   $output += '```'
-
   $output | Out-File -FilePath "tree_structure.md" -Encoding UTF8
 
 

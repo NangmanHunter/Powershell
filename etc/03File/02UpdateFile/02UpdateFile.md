@@ -41,7 +41,7 @@ Alias
   ```
 
 
-### Delete
+## Delete
 - ```ps1
   Get-ChildItem -File | ForEach-Object {
       $newName = $_.Name -replace 'ㅁㅁ', ''
@@ -106,7 +106,6 @@ Alias
 - ```ps1
   Get-ChildItem -File | Rename-Item -NewName { $_.Name -replace '.cLayer', '' }
   ```
-
 
 
 

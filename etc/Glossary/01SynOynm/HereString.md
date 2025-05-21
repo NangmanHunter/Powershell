@@ -1,0 +1,26 @@
+- @" ... "@
+- @"   "@
+- @"  "@
+- @" "@
+- @""@
+- @"
+- "@
+- Here-String
+- 여러 줄 문자열(Literal multi-line string)을 표현할 때 사용
+- 여러 줄 문자열
+- 여러줄 문자열
+- 여러줄문자열
+- Literal multi-line string
+- Literal Multi-line string
+- Literal Multi-line String
+- Literal Multi-Line String
+- Literal MultiLine String
+- Literal MultiLineString
+- LiteralMultiLine String
+- MultiLine Literal String
+- MultiLine LiteralString
+- MultiLineLiteralString
+- LiteralMultiLineString
+- @' ... '@
+- @' ... '@▶️❌`
+- @" ... "@▶️✅`

@@ -1,0 +1,14 @@
+- 파일병합기
+- 파일병합
+- 파일합산기
+- 파일합산
+- File Merger
+- FileMerger
+- FM
+- FileMerger▶️TextFileMerger
+- FileMerger▶️TxtFileMerger
+- FileMerger▶️TXTFileMerger
+- FileMerger▶️MarkDownFileMerger
+- FileMerger▶️MDFileMerger
+- FileMerger▶️PdfFileMerger
+- FileMerger▶️PDFFileMerger
