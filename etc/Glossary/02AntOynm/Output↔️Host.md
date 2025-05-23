@@ -1,0 +1,3 @@
+- Output↔️Host
+- WriteOutput↔️WriteHost
+- Write-Output↔️Write-Host

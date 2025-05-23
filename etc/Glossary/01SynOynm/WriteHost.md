@@ -1,0 +1,25 @@
+- WriteHost
+- Write-Host
+- 출력
+- 출력용
+- Write
+- 디버깅용
+- 디버깅
+- Host
+- console Host
+- Console Host
+- ConsoleHost
+- console host
+- 콘솔호스트
+- host
+- 호스트
+- 호스트환경
+- Powershell콘솔창
+- 사용자와 대화하는 인터페이스
+- 사용자와 대화하는 UI
+- 콘솔창출력
+- 콘솔출력
+- 화면출력
+- ❌파이프라인
+- ❌후속처리
+- ❌데이터전달

@@ -1,0 +1,10 @@
+- SelectionRun
+- RunSelection
+- Run Selection
+- RunㆍSelection
+- Run▶️Selection
+- 부분실행
+- 실행부분
+- 실행▶️부분
+- 블록실행
+- 블럭실행
