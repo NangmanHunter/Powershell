@@ -1,4 +1,9 @@
 # LineSort
+- [LineSort](#linesort)
+  - [WriteLineSort](#writelinesort)
+  - [FileLineSort](#filelinesort)
+
+
 ## WriteLineSort
 - ```ps1
   Get-Content test.md -Encoding UTF8 | Sort-Object
