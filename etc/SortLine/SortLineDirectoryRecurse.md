@@ -62,6 +62,8 @@ Alias
       }
   }
   ```
+
+📁01SynOnymㆍ📁02AntOnym 
 - ```ps1
   $RootPath = "."
   Get-ChildItem -Path $RootPath -Directory -Recurse | Where-Object {
