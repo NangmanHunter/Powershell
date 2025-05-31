@@ -35,6 +35,11 @@
 
 
 ## RootFileTree
+```
+📁 powershell
+├── ...
+...
+```
 - ```ps1
   function Show-Tree {
       param (
@@ -72,11 +77,5 @@
 
   # Show-Tree -Path "." -Depth 3
   Show-Tree -Path "." 
-
-  <#
-  📁 powershell
-  ├── ...
-  ...
-  #>
   ```
 

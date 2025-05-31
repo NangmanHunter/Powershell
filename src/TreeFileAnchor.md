@@ -246,6 +246,9 @@ Target
   $output += '</details>'
   $output | Out-File -FilePath "tree_structure.md" -Encoding UTF8
   ```
+
+❌n뒤공백하나더들어감
+- 좀더고민ㄱㄱ.
 - ```ps1
   function Show-Tree {
       param (
@@ -264,16 +267,17 @@ Target
           $item = $items[$i]
           $branch = "- "
           $nextPrefix = "$Prefix  "
-  
+        
+        
           if ($item.PSIsContainer) {
-              $lines += "$Prefix$branch📁$($item.Name)"
-              $lines += Show-Tree -Path $item.FullName -Prefix $nextPrefix -Depth ($Depth - 1)
+              $lines += "$Prefix$branch📁$($item.Name)`n"
+              $lines += Show-Tree -Path $item.FullName -Prefix $nextPrefix -Depth ($Depth - 1) 
           }
           else {
               $relativePath = Resolve-Path -Relative $item.FullName
               $relativePath = $relativePath -replace "\\", "/"
               $relativePath = $relativePath -replace "^\.\/", ""
-              $lines += "$Prefix$branch📄[$($item.Name)]($relativePath)"
+              $lines += "$Prefix$branch📄[$($item.Name)]($relativePath)`n"
           }
       }
   
@@ -287,7 +291,7 @@ Target
   <details>
     <summary>⚓AnchorFileTree</summary>
   
-    $($tree)
+  $($tree)
   </details>
   "@
   $output | Out-File -FilePath "tree_structure.md" -Encoding UTF8

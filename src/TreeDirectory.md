@@ -32,8 +32,11 @@
   }
 
   Show-Tree -Path "." 
-  # Show-Tree -Path "." -Depth 3
   ```
+  - Show-Tree -Path "." 
+  - Show-Tree -Path "." -Depth 3
+
+
 ## RootDirectoryTree
 - ```ps1
   function Show-Tree {
@@ -71,11 +74,7 @@
   }
 
   Show-Tree -Path "." 
-  # Show-Tree -Path "." -Depth 3
   ```
-
-
-
-
-
+  - Show-Tree -Path "." 
+  - Show-Tree -Path "." -Depth 3
 

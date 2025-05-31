@@ -21,7 +21,7 @@ Alias
   Get-ChildItem -Path $RootPath -Directory -Recurse | Where-Object {
       $_.Name -eq "test"
   } | ForEach-Object {
-      Get-ChildItem -Path $_.FullName -File -Recurse | ForEach-Object {
+      Get-ChildItem -Path $_.FullName -File | ForEach-Object {
           $FileName = $_.FullName
           Get-Content $FileName -Encoding UTF8 |
           Sort-Object |
@@ -35,7 +35,7 @@ Alias
   Get-ChildItem -Path $RootPath -Directory -Recurse | Where-Object {
       $_.Name -in @("test", "test2")
   } | ForEach-Object {
-      Get-ChildItem -Path $_.FullName -File -Recurse | ForEach-Object {
+      Get-ChildItem -Path $_.FullName -File | ForEach-Object {
           $FileName = $_.FullName
           Get-Content $FileName -Encoding UTF8 |
           Sort-Object |
@@ -54,7 +54,7 @@ Alias
   Get-ChildItem -Path $RootPath -Directory -Recurse | Where-Object {
       $_.Name -in @("test", "test2")
   } | ForEach-Object {
-      Get-ChildItem -Path $_.FullName -File -Recurse | ForEach-Object {
+      Get-ChildItem -Path $_.FullName -File | ForEach-Object {
           $FileName = $_.FullName
           Get-Content $FileName -Encoding UTF8 |
           Sort-Object |
@@ -63,13 +63,19 @@ Alias
   }
   ```
 
-📁01SynOnymㆍ📁02AntOnym 
+
+```
+📁.
+ └📁...
+ └📁01SynOnym
+ └📁02AntOnym 
+```
 - ```ps1
   $RootPath = "."
   Get-ChildItem -Path $RootPath -Directory -Recurse | Where-Object {
       $_.Name -in @("01SynOnym", "02AntOnym")
   } | ForEach-Object {
-      Get-ChildItem -Path $_.FullName -File -Recurse | ForEach-Object {
+      Get-ChildItem -Path $_.FullName -File | ForEach-Object {
           $FileName = $_.FullName
           Get-Content $FileName -Encoding UTF8 |
           Sort-Object |
@@ -82,7 +88,7 @@ Alias
   Get-ChildItem -Path $RootPath -Directory -Recurse | Where-Object {
       $_.Name -in @("01SynOnym", "02AntOnym", "Glossary")
   } | ForEach-Object {
-      Get-ChildItem -Path $_.FullName -File -Recurse | ForEach-Object {
+      Get-ChildItem -Path $_.FullName -File | ForEach-Object {
           $FileName = $_.FullName
           Get-Content $FileName -Encoding UTF8 |
           Sort-Object |
@@ -90,13 +96,16 @@ Alias
       }
   }
   ```
+
+
+Pattern  
 - ```ps1
   $RootPath = "C:\github-nangmanhunter\test"
 
   Get-ChildItem -Path $RootPath -Directory -Recurse | Where-Object {
       $_.Name -like "test*"
   } | ForEach-Object {
-      Get-ChildItem -Path $_.FullName -File -Recurse | ForEach-Object {
+      Get-ChildItem -Path $_.FullName -File | ForEach-Object {
           $FileName = $_.FullName
           Get-Content $FileName -Encoding UTF8 |
           Sort-Object |
